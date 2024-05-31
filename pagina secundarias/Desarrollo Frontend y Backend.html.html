@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Frontend y Backend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #ff7f50;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DESARROLLO FRONTEND Y BACKEND</h1>
+    </header>
+        <h2>Introducción</h2>
+        <p>El Desarrollo Frontend y Backend es fundamental en la creación de aplicaciones web. El frontend se encarga de la parte visible de la aplicación, mientras que el backend gestiona la lógica y los datos detrás de escena. En esta página, exploraremos las tecnologías clave utilizadas en ambos aspectos del desarrollo web.</p>
+        <p>El Desarrollo Frontend se enfoca en la experiencia del usuario y la interfaz de la aplicación. Los desarrolladores frontend utilizan HTML para estructurar el contenido, CSS para el diseño y la presentación, y JavaScript para la interactividad y la manipulación dinámica de la página.</p>
+        <p>Por otro lado, el Desarrollo Backend se encarga de la parte del servidor y la lógica de la aplicación. Los desarrolladores backend utilizan diferentes tecnologías y lenguajes de programación, como PHP, Python o Node.js, para construir la lógica de negocio, interactuar con las bases de datos y gestionar las solicitudes de los clientes.</p>
+    </section>
+    <section id="Tecnologías">
+        <h2>Tecnologías de Desarrollo Frontend y Backend</h2>
+        <h3>Frontend</h3>
+        <ul>
+            <li>HTML (HyperText Markup Language)</li>
+            <li>CSS (Cascading Style Sheets)</li>
+            <li>JavaScript</li>
+            <li>Frameworks como React, Angular, Vue.js</li>
+        </ul>
+        <h3>Backend</h3>
+        <ul>
+            <li>PHP (Hypertext Preprocessor)</li>
+            <li>Python</li>
+            <li>Node.js</li>
+            <li>Frameworks como Django, Flask, Express.js</li>
+            <li>Bases de Datos (MySQL, MongoDB, PostgreSQL)</li>
+        </ul>
+    </section>
+    <section id="Conclusión">
+        <h2>Conclusión</h2>
+        <p>El Desarrollo Frontend y Backend son componentes esenciales en la construcción de aplicaciones web modernas. Combinando tecnologías y frameworks adecuados, los desarrolladores pueden crear experiencias web dinámicas y funcionales. Al comprender las diferentes tecnologías disponibles y sus aplicaciones, los equipos de desarrollo pueden trabajar de manera eficiente para llevar a cabo proyectos web exitosos.</p>
+        <p>Es importante destacar que el Desarrollo Frontend y Backend no son procesos independientes, sino que trabajan en conjunto para crear una experiencia web completa y efectiva. Los desarrolladores frontend y backend suelen colaborar estrechamente para integrar la interfaz de usuario con la lógica de la aplicación y garantizar un funcionamiento fluido y coherente.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    </section>
+
+    <footer>
+        <p>WALTER ESTEBAN LEON NIÑO</p>
+    </footer>
+
+    <script>
+        // Script para desplazamiento suave al hacer clic en los enlaces del menú de navegación
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
